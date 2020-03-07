@@ -18,7 +18,9 @@ glm(low ~ ., binomial, bwt)
 with(bwt_adj, pairs(low~age+lwt+ptl+ftv))
 with(bwt_adj, cor(cbind(low,age,lwt,ptl,ftv)))
 
-#This output gives us insight to which variables are strongly correlated with our response variable (low) or that are strongly correlated with each other.
-#Based on the scatter plots, age and lwt seem to be moderately positively correlated. The remaining scatter plots all display no pattern within the data. So it is concluded that the rest of the scatter plots seem to display no true correlation between covariates.
-#Based on the correlation 
-#<<<ASK JACOB WHAT ELSE HE SAID FOR THESE PLOTS; DOES HE AGREE>>>
+#This output gives us insight to which variables are strongly correlated with our response variable (low) or that 
+#are strongly correlated with each other.
+#Based on the scatter plots, age and lwt seem to be moderately positively correlated. 
+#The remaining scatter plots all display no pattern within the data. 
+#So it is concluded that the rest of the scatter plots seem to display no true correlation between covariates.
+#Based on the correlation
